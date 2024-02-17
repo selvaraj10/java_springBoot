@@ -32,7 +32,7 @@ public class ThreadATMMethod {
     }
     synchronized public void withDraw(String name, int amount){
         if (name.equalsIgnoreCase("selva")) {
-            Selva_Balance = Selva_Balance -  amount;
+              Selva_Balance = Selva_Balance -  amount;
             System.out.println("User : " + name);
             System.out.println("Withdraw amount : " + amount);
             try{
