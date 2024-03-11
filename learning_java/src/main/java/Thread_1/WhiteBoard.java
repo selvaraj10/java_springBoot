@@ -13,7 +13,7 @@ public class WhiteBoard {
     {
         System.out.println("Teacher is Writing " + t);
         while(count!=0)
-            try{wait();}catch(Exception e){}
+            try{wait();}catch(Exception ignored){}
         text=t;
         count=numberOfStudents;
         notifyAll();
@@ -23,7 +23,7 @@ public class WhiteBoard {
     {
 
         while(count==0)
-            try{wait();}catch(Exception e){}
+            try{wait();}catch(Exception ignored){}
 
         String t=text;
         count--;

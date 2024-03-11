@@ -1,5 +1,15 @@
+/**
+ * @author selva
+ * @version 2.0
+ * @since 2024
+ **/
 package Thread_1;
 
+/**
+ * @author selva
+ * main class
+ * main method
+ **/
 public class main {
     public static void main(String[] args) {
         WhiteBoard wb=new WhiteBoard();
